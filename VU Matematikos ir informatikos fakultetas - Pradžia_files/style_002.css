@@ -1,0 +1,129 @@
+.acm-slideshow .owl-carousel {
+  cursor: move;
+  padding: 0;
+  overflow: hidden;
+  background: #333333;
+}
+.acm-slideshow .owl-carousel .owl-wrapper-outer {
+  z-index: 0;
+}
+.acm-slideshow .owl-carousel .item {
+  position: relative;
+  overflow: hidden;
+}
+.acm-slideshow .owl-carousel .item .img-bg {
+  width: 100%;
+}
+.acm-slideshow .owl-carousel .item .mask {
+  background: #222c54;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.acm-slideshow .owl-carousel .slider-content {
+  background: transparent;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  text-align: left;
+}
+@media (max-width: 1199px) {
+  .acm-slideshow .owl-carousel .slider-content {
+    bottom: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .acm-slideshow .owl-carousel .slider-content {
+    width: 100%;
+  }
+}
+.acm-slideshow .owl-carousel .slider-content .slider-content-inner {
+  width: 50%;
+}
+@media (max-width: 1199px) {
+  .acm-slideshow .owl-carousel .slider-content .slider-content-inner {
+    width: 80%;
+  }
+}
+.acm-slideshow .owl-carousel .slider-content .slider-content-inner > h1 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+@media (max-width: 1199px) {
+  .acm-slideshow .owl-carousel .slider-content .slider-content-inner > h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.acm-slideshow .owl-carousel .slider-content .slider-content-inner > h1 a {
+  color: #ffffff;
+}
+.acm-slideshow .owl-carousel .slider-content .slider-content-inner > p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 44px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+@media (max-width: 1199px) {
+  .acm-slideshow .owl-carousel .slider-content .slider-content-inner > p {
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+}
+.acm-slideshow .owl-carousel .slider-content .slider-content-inner > .btn + .btn {
+  margin-left: 22px;
+}
+.acm-slideshow .owl-carousel .owl-controls {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width: 768px) {
+  .acm-slideshow .owl-carousel .owl-controls {
+    width: 752px;
+  }
+}
+@media (min-width: 992px) {
+  .acm-slideshow .owl-carousel .owl-controls {
+    width: 972px;
+  }
+}
+@media (min-width: 1200px) {
+  .acm-slideshow .owl-carousel .owl-controls {
+    width: 1152px;
+  }
+}
+.acm-slideshow .owl-carousel .owl-controls .owl-pagination {
+  position: absolute;
+  right: 0;
+  top: -400px;
+}
+@media (max-width: 1199px) {
+  .acm-slideshow .owl-carousel .owl-controls .owl-pagination {
+    top: -200px;
+  }
+}
+.acm-slideshow .owl-carousel .owl-controls .owl-pagination .owl-page {
+  display: block;
+}
+.acm-slideshow .owl-carousel .owl-controls .owl-pagination .owl-page span {
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  background: none;
+  width: 8px;
+  height: 8px;
+  margin: 0 0 10px;
+}
