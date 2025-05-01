@@ -1,0 +1,389 @@
+
+.linkedIn a {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    /*border: 1px solid #fff;*/
+	color:    #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+.facebook a {
+    position: relative;
+    display: inline-block;
+	background: #78003F;
+    width: 32px;
+    height: 32px;
+    color:    #78003F;
+	line-height: 32px;
+}
+
+.facebook-icon a{
+  background: #3b5998;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  border: 15px solid #3b5998;
+  border-bottom: 0;
+  display: inline-block;
+  &::before {
+    background: #3b5998;
+    position: absolute;
+    bottom: -30px;
+    right: -37px;
+    width: 40px;
+    height: 90px;
+    border: 20px solid #eee;
+    border-radius: 25px;
+  }
+  &::after {
+    background: eee;
+    content: "/20";
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 55px;
+    height: 20px;
+  }
+}
+
+.navigationRight
+{
+	width: 160px;
+	align-items: normal;
+
+}
+
+.navigationRight #mod-custom199,
+.navigationRight #mod-custom191
+{
+	width:200px;
+	display:flex;
+	margin-left: 10px;
+}
+
+.navigationRight .mod-languages #language_picker_des_21
+{
+	display:none;
+}
+
+@media (min-width: 992px)
+{
+  .navigationRight
+  {
+	  
+	  top: 5px;
+	  right: -65px;
+  }
+  
+}
+
+.mod-languages .mod-languages__list li a 
+{
+	line-height: 24px;
+}
+
+
+
+@media (max-width: 991px)
+{
+	.navigationRight
+  {
+	width: 140px;
+	align-items: normal;
+	top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+  
+}
+
+/* Slideris baneris */
+
+.acm-slideshow .owl-carousel .owl-controls 
+{
+	background-color: white!important; 
+	width:100%!important;
+}
+
+.acm-slideshow .owl-carousel .owl-controls .owl-pagination .owl-page
+{
+	display: inline-block!important;
+	margin-left: 15px!important;
+	position: relative!important;
+    bottom: 30px!important;
+}
+
+
+
+@media (max-width: 1199px)
+{
+  .acm-slideshow .owl-carousel .owl-controls .owl-pagination
+{
+    top: 0px!important;
+  }
+}
+
+
+
+.owl-controls.clickable
+{
+    background-color: white!important; /* This will remove the grey background */
+}
+
+.acm-slideshow .owl-carousel .owl-controls .owl-pagination
+{
+	position: relative!important;
+	top:0!important;
+}
+
+.owl-controls.clickable .owl-pagination
+{
+    position: relative!important;
+    bottom: 10px!important;
+}
+
+
+.acm-slideshow .owl-carousel .owl-controls .owl-pagination .owl-page span
+{
+	border-radius: 20px!important;
+	border: 2px solid #ffffff!important;
+	background: none!important;
+	width: 10px!important;
+	height: 10px!important;
+	margin: 0 0 10px!important;
+}
+
+.acm-slideshow .owl-carousel .item .mask
+{
+	background: #113c69 !important;
+  	opacity: 0.0 !important;
+}
+
+.moduleicag_kalendorius .iccalendar table th
+{
+	font-size: 14px!important;
+}
+
+.moduleicag_kalendorius .iccalendar table td div
+{
+	font-size: 14px!important;
+	line-height: 30px!important;
+}
+
+.moduleicag_kalendorius .icnav .titleic
+{
+	font-size: 16px!important;
+	font-weight:bold;
+}
+
+.moduleicag_kalendorius .module-title
+{
+	display:none!important;
+}
+
+#back-to-top
+{
+	display:none;
+}
+
+
+.moduleicag_kalendorius .iccalendar table td div
+
+.icag_kalendorius
+{
+	
+}
+
+[data-rlta-element="container"][data-rlta-state="ready"][data-rlta-theme="accent-lines"][data-rlta-positioning="top"][data-rlta-type="tabs"] > [data-rlta-element="button-list"] > [data-rlta-element="button"],
+[data-rlta-element="container"][data-rlta-state="ready"][data-rlta-theme="accent-lines"][data-rlta-type="accordions"] > [data-rlta-element="button"]
+{
+	border-top-width: 1px!important;
+	background-color: #f8f8f8!important;
+}
+ [data-rlta-element="container"][data-rlta-state="ready"][data-rlta-type="accordions"] > [data-rlta-element="button"] > [data-rlta-element="heading"]
+{
+	font-size: 1.325rem!important;
+  	color: #78003F!important;
+  	font-weight: bold!important;
+}
+
+[data-rlta-element="container"][data-rlta-state="ready"][data-rlta-type="accordions"] > [data-rlta-element="button"] > [data-rlta-element="heading"] a
+
+{
+	font-size: 1.325rem!important;
+  	color: #78003F!important;
+  	font-weight: bold!important;
+}
+
+[data-rlta-element="container"][data-rlta-state="ready"][data-rlta-type="tabs"] > [data-rlta-element="button-list"] > [data-rlta-element="button"] > [data-rlta-element="heading"]
+{
+	text-transform: uppercase!important;
+	font-size: 13px!important;
+	font-family: 'Raleway', sans-serif!important;
+	color: #3071a9;
+}
+
+
+[data-rlta-element="container"][data-rlta-state="ready"][data-rlta-theme="accent-lines"][data-rlta-positioning="top"] > [data-rlta-element="button-list"] > [data-rlta-element="button"]:not([data-rlta-state="closed"]) [data-rlta-element="heading"]
+{
+	color: #78003F!important;
+}
+
+
+.blog .items-leading.clearfix
+{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.blog .items-leading .leading
+{
+	flex: 0 1 calc(50% - 20px);
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.blog .pull-left.item-image
+{
+	display:block !important; 
+	max-width:100%!important;
+	padding-right:0px!important;
+}
+
+@media (max-width: 992px)
+{
+  .blog .items-leading .leading
+  {
+    flex-basis: 100%;
+  }
+}
+
+.blog .article-aside.clearfix
+{
+	display:block!important;
+}
+
+.article-info.muted
+{
+	display:none;
+}
+
+.blog .article-info.muted
+{
+	display:block;
+}
+
+
+.blog h2.article-title,
+blog .article-header h2
+{
+	font-size: 22px;
+	margin: 11px 0 11px 0;
+}
+
+.blog .page-header.clearfix
+{
+  padding-left: 20px;
+}
+
+.itemid-1372 .article-content img,
+.itemid-943 .article-content img
+{
+	min-width:120px;
+}
+
+/*magic info naujienu puslapis*/
+
+.itemid-1454 .nspImageWrapper,
+.itemid-1454 .t3-sidebar,
+.itemid-1454 .homepage-news p.nspInfo.nspInfo1,
+.itemid-1454 .nspTopInterface,
+.itemid-1454 .readon.fright,
+.itemid-1454 .article-title,
+.itemid-1454 #redim-cookiehint-bottom
+{
+	display:none!important;
+}
+
+.itemid-1454 #t3-content
+{
+	width:100%;
+}
+
+@media (min-width: 768px)
+{
+.itemid-1454 .col-sm-push-4
+	{
+    		left: 0%;
+  	}
+}
+
+.itemid-1454 .nspArt.nspCol1
+{
+	padding: 0px!important;
+}
+
+
+.itemid-1454 p
+
+{
+	font-weight: 484;
+	font-style: normal;
+}
+
+.itemid-1454 h4
+{
+	font-weight:900!important;
+	font-style:normal!important;
+	font-size:40px!important;
+}
+
+/*END magic info naujienu puslapis*/
+
+/*EN studijø programø apply now mygtukas*/
+
+.apply-now-button
+{
+            background-color: #78003f;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 22px 76px;
+            border: none;
+            text-transform: uppercase;
+            border-radius: 1px;
+            text-align: center;
+            text-decoration: none;
+}
+
+.apply-now-button:hover span
+{
+          opacity: 0.7;
+		color:white;
+}
+
+.button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+        }
+
+wrap.t3-slideshow
+{
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 992px)
+{
+  .has-slideshow .t3-header + div {
+    margin-top: 106px;
+ }
+}
